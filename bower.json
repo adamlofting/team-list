@@ -1,0 +1,19 @@
+{
+  "name": "mocofo-team-list",
+  "main": "mocofo-team-list.js",
+  "dependencies" : {
+    "jquery": "~1.11.1"
+  },
+  "devDependencies": {
+    "qunit": "1.13.0"
+  },
+  "ignore": [
+    "**/.*",
+    "bower.json",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "Gruntfile.js",
+    "teams.txt"
+  ]
+}

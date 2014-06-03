@@ -1,6 +1,6 @@
 # team-list
 
-A simple txt file with a list of team names that can be used in other tools. 
+A simple txt file with a list of team names that can be used in other tools.
 
 ### Who is using this?
 
@@ -32,8 +32,25 @@ TODO: Check if this automatically creates a Fork for people who are not authoriz
 
 * Please ask before *changing* an existing name (as this may impact on reporting elsewhere)
 
-### How to consume this
 
-The published list is at:
 
-* http://mozilla.github.io/team-list/teams.txt
+## Consuming this list in an app
+
+The raw list is available at `http://mozilla.github.io/team-list/teams.txt`
+
+The module is also installable via [Bower](http://bower.io/):
+
+```
+$ bower install webmaker-analytics
+```
+
+### Tests
+
+To run the tests, do the following:
+
+```
+$ npm install
+$ npm install -g bower
+$ npm install -g grunt-cli
+$ grunt
+```

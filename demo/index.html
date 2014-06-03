@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Teamlist Demo</title>
+</head>
+<body>
+
+  <select id="demoID">
+    <optgroup label="Loading">
+      <option value="default" disabled="disabled">Please wait</option>
+    </optgroup>
+  </select>
+
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../mocofo-team-list.js"></script>
+  <script type="text/javascript">
+    mocofoteamlist.populateSelect("#demoID");
+  </script>
+</body>
+</html>
